@@ -1,0 +1,52 @@
+.service {
+    padding-top: 20px;
+    text-align: center;
+
+    &-list {
+        &-title {
+            font-size: 16px;
+            text-align: center;
+            margin-top: 0;
+            margin-bottom: 10px;  
+        }
+    }
+
+    &-item {
+        margin-bottom: 10px;
+
+        &-pic {
+            display: block;
+            max-width: 100%;
+            height: auto;
+            margin: 0 auto;
+            margin-bottom: 5px;
+        }
+
+        &-title {
+            display: block;
+            font-size: 14px;
+            margin-bottom: 5px;
+        }
+
+        &-price {
+            display: block;
+            font-size: 14px;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+
+        &-text {
+            display: block;
+            font-size: 14px;
+            margin-bottom: 5px;
+        }
+    }
+}
+
+.img-small {
+    max-width: 104px;
+}
+
+.img-medium {
+    max-width: 264px;
+}

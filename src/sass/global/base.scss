@@ -1,0 +1,34 @@
+body {
+	overflow-x: hidden;
+	font-family: 'Comfortaa', sans-serif;
+	max-width: 375px;
+	margin: 0 auto;
+	position: relative;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+ul,
+ol {
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+.container {
+	max-width: 375px;
+	margin: 0 auto;
+	padding: 0 10px;
+
+	@media (max-width: 320px) {
+		padding: 0 5px;
+	}
+}

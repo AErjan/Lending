@@ -1,0 +1,15 @@
+@import '../../node_modules/normalize.scss/normalize.scss';
+@import '../../node_modules/owl.carousel/src/scss/owl.carousel.scss';
+@import '../../node_modules/owl.carousel/src/scss/owl.theme.default.scss';
+
+@import 'global/vars';
+@import 'global/fonts';
+@import 'global/base';
+
+@import 'sections/header';
+@import 'sections/services';
+@import 'sections/request';
+@import 'sections/works';
+@import 'sections/masters';
+@import 'sections/footer';
+@import 'sections/popup-send';

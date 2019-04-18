@@ -1,0 +1,27 @@
+.masters {
+
+    &-title {
+        margin-top: 0;
+        font-size: 16px;
+        font-weight: bold;
+        text-align: center;
+        margin-bottom: 5px;
+    }
+
+    &-list {
+        text-align: center;
+        margin-bottom: 40px;
+    }
+
+    &-item {
+        max-width: 214px;
+        margin: 0 auto;
+
+        &-pic {
+            display: block;
+            max-width: 90%;
+            margin: 0 auto;
+        }
+    }
+
+}
